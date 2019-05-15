@@ -5,7 +5,7 @@ header {
         z-index: 10;
       }
 ul {
-    margin: 30px auto;
+    /*margin: 30px auto;*/
     padding: 0 20px;
     text-align: center;
     display: flex;
