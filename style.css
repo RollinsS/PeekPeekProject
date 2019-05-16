@@ -64,5 +64,5 @@ li:not(.space):hover::after {
         }
 
 .space {
-  padding: 0 30px;
+  padding: 0 35px;
 }
