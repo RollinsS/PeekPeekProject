@@ -8,6 +8,7 @@
         <SpecialSection/>
         <TrustedSection/>
         <YourTurnSection/>
+        <ContactForm/>
     </div>
 </template>
 
@@ -20,6 +21,7 @@ import HotspotsSection from "./components/HotspotsSection";
 import SpecialSection from "./components/SpecialSection";
 import TrustedSection from "./components/TrustedSection";
 import YourTurnSection from "./components/YourTurnSection";
+import ContactForm from "./components/ContactForm";
 
 export default {
     name: 'app',
@@ -31,8 +33,10 @@ export default {
         HotspotsSection,
         SpecialSection,
         TrustedSection,
-        YourTurnSection
+        YourTurnSection,
+        ContactForm
     },
+  
 }
 </script>
 
