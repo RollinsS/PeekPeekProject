@@ -4,15 +4,15 @@
         <div class="stats-section-content">
             <div class="stats-cards">
                 <div class="stats-cards-container">
-                    <StatsCard :cardNumber="'36%'" :supportiveTitle="'Increase in'" :title="'Lead Generation'" id="stats-card-one"/>
+                    <StatsCard :cardNumber="'36%'" :supportiveTitle="'Increase in'" :title="'Lead Generation'"id="stats-card-one"/>
                     <StatsCard :cardNumber="'70%'" :supportiveTitle="'Increase in'" :title="'Engagement'" id="stats-card-two"/>
                     <StatsCard :cardNumber="'25'" :supportiveTitle="'Current'" :title="'Affiliates'" id="stats-card-three"/>
                     <StatsCard :cardNumber="'10'" :supportiveTitle="'Minutes of'" :title="'Excitement'" id="stats-card-four"/>
                 </div>
             </div>
             <div class="stats-captions">
-                <h2>We do work</h2>
-                <h4>Better than most, actually</h4>
+                <h2 class="title" id="firstTitle">We do work</h2>
+                <h4 class="subtitle" id="firstSubtitle">Better than most, actually</h4>
             </div>
         </div> 
         
@@ -79,25 +79,6 @@ export default class StatsSection extends Vue {
                 scene.setTween(treeTween).addIndicators(),
             )
         }
-        // var tween = new TweenMax.to('#stats-card-one', 1, { y: '-200%', x: '-50%' });
-        // var rotationTween = new TweenMax.to('#stats-card-one', 1, {rotation:-15})
-
-        // let timeline = new TimelineMax();
-
-        // timeline.add(tween).add(rotationTween);
-
-        // let scene = new Vue.prototype.$scrollmagic.scene({
-        //     duration: 800,
-        //     offset: -200,
-        //     triggerHook: 'onCenter',
-        //     triggerElement: '#stats-section',
-        // })
-        // // Vue.prototype.$scrollmagic.addScene(
-        // //     scene.setTween(tween).addIndicators(),
-        // // )
-
-        // scene.setTween(timeline).addIndicators();
-        // Vue.prototype.$scrollmagic.addScene(scene)
     }
 }
 </script>

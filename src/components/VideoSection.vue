@@ -2,7 +2,7 @@
     <section class="peek-section" id="video-section">
         <div class="video-section-container">
             <h2>Welcome to WebTour<sup>TM</sup></h2>
-            <iframe 
+            <iframe class="media" id="video1"
             width="100%" 
             height="100%" 
             src="https://www.youtube-nocookie.com/embed/GbpJN-nZt8A" 

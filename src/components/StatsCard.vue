@@ -4,7 +4,7 @@
         <p class="number">{{cardNumber}}</p>
         <div class="card-separator"></div>
         <p class="supportive-title">{{supportiveTitle}}</p>
-        <p class="title">{{title}}</p> 
+        <p class="card-title">{{title}}</p> 
     </div>
 </template>
 
@@ -58,7 +58,7 @@ export default class StatsCard extends Vue {
         font-size: 24px;
     }
 
-    .title {
+    .card-title {
         font-size: 24px;
         font-weight: bold;
         color: #1c7d83;
