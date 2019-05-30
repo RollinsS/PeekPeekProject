@@ -1,0 +1,9 @@
+
+Google Client ID Peek Peek
+382971910743-7bvki768rktiqg7ogkp2fqhhvf4algdt.apps.googleusercontent.com
+
+API Key
+AIzaSyA0pKRBIlvwXcexibwMN9r7ayOIkPy81KQ
+
+Sheet ID
+1rbqX-Lu8u5scPunV7I9-c0xNKPTVIO544mJxfo1ChZ0

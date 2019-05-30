@@ -59,7 +59,7 @@ export default {
               this.form.inquery = event.inquery;
           }
 
-          console.log(this.form.industry + " " + this.form.location + " " + 
+          console.log(this.form.industry + "<br> " + this.form.location + "<br> " + 
               this.form.fname + " " +
               this.form.lname + " " +
               this.form.email + " " +

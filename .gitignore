@@ -86,3 +86,7 @@ fabric.properties
 .idea/modules.xml
 .idea/PeekPeekProject.iml
 .idea/vcs.xml
+
+# google sheet info 
+./apiInfo.txt
+
