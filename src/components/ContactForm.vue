@@ -7,10 +7,7 @@
      </div>
 </template>
 
-
-
 <script>
-
 
 import Industry from './Industry.vue';
 import Location from './Location.vue';
@@ -88,16 +85,6 @@ export default {
                         alert('Oops... ' + JSON.stringify(error));
                         });
                 
-                //clear the form
-          this.form.industry = " ";
-          this.form.location = " ";
-          this.form.fname = " ";
-          this.form.lname = " ";
-          this.form.email = " ";
-          this.form.phone = " ";
-          this.form.inquery= " ";
-
-
           }
 
           console.log(this.form.industry + " " +
@@ -107,9 +94,6 @@ export default {
           this.form.email + " " +
           this.form.phone + " " +
           this.form.inquery);
-
-           
-      
       } //end of addToForm
 }
 }
