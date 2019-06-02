@@ -4,7 +4,7 @@
               <div class="container">
                   <div v-on:click="addLocation('Los Angeles')">Los Angeles</div>
                   <div v-on:click="addLocation('Orange County')">Orange County</div>
-                  <div v-on:click="addLocation('Riversie')">Riverside</div>
+                  <div v-on:click="addLocation('Riverside')">Riverside</div>
                   <div v-on:click="addLocation('Other')">Other</div>
               </div>
           </div>

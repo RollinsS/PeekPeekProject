@@ -2,7 +2,7 @@
 <template>
     <div class="container">Customer Info 
         
-    <form @submit.prevent="creatForm(tempForm)" action="mailto:davidb795@gmail.com" method="post" enctype="text/plain" >
+    <form @submit.prevent="creatForm(tempForm)">
     <label>
       <input placeholder="First Name" type="text" v-model="tempForm.fname"/>
     </label>
