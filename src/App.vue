@@ -274,4 +274,86 @@ h1 {
     }
   }
 }
+
+@media (max-width: 992px) and (hover : none) {
+  * {
+   -webkit-transition: none !important;
+   -moz-transition: none !important;
+   -o-transition: none !important;
+   -ms-transition: none !important;
+   transition: none !important;
+  }
+
+h1 {
+  font-size: 5vh;
+  text-align: left;
+}
+
+.title {
+  font-size: 3vh;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 1.8vh;
+  font-weight: normal;
+}
+
+.main-text {
+  font-size: 1.5vh;
+  font-weight: normal;
+}
+
+
+  .peek-section {
+  height: 100vw;
+  width: 100%;
+  position: absolute;
+
+  p {
+    margin: 0;
+  }
+}
+
+  .peek-section:nth-child(1) {
+  top: 0%;
+  left: 0%;
+}
+
+.peek-section:nth-child(2) {
+  top: 50%;
+  left: -20%;
+}
+
+.peek-section:nth-child(3) {
+  top: 50%;
+  left: -10%;
+  
+}
+
+.peek-section:nth-child(4) {
+  top: 80%;
+  left: 0%;
+}
+
+.peek-section:nth-child(5) {
+  top: 450%;
+  left: 0%;
+}
+
+.peek-section:nth-child(6) {
+  top: 600%;
+  left: 0%;
+}
+
+.peek-section:nth-child(7) {
+  top: 775%;
+  left: 0%;
+}
+
+
+
+
+
+}
 </style>

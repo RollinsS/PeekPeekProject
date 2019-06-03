@@ -61,4 +61,6 @@ export default class HomeSection extends Vue {
         margin-right: 25px;
     }
 }
+
+
 </style>

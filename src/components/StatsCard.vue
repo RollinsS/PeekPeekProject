@@ -64,6 +64,12 @@ export default class StatsCard extends Vue {
             font-weight: bold;
             color: #1c7d83;
         }
-    }   
+    }
+
+
 }
-</style>
+  
+  
+    
+  
+    </style>
